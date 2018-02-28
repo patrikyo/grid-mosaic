@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bootstrap 4</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div id="wrapper">
+		<div></div>
+		<div></div>
+		<div>
+			<button>Klicka</button>
+		</div>
+		<div></div>
+		<div></div>
+	</div>
+<script>
+	var btn = document.querySelector("div > button");
+	btn.addEventListener("click", function(){
+		document.getElementById("wrapper").classList.add("rotera");
+		btn.style.display= "none";
+
+	});
+</script>
+</script>
+</body>
+</html>
+
